@@ -1,0 +1,16 @@
+.different {
+  padding: 8.5em 0;
+  text-align: center;
+  hr {
+    width: 45%;
+    margin-bottom: 2.5em;
+    border-top: 1px solid var(--grayishBlue);
+  }
+  img {
+    margin: 2em 0;
+  }
+  .copy {
+    color: var(--darkGrayishViolet);
+    line-height: 1.9;
+  }
+}

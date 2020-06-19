@@ -1,0 +1,213 @@
+.header {
+  padding: 1em 0;
+}
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo {
+  align-self: center;
+}
+
+.menu {
+  background: url("../images/icon-hamburger.svg") center no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.hero {
+  background: var(--darkViolet);
+  color: white;
+}
+.hero__image {
+  width: 100%;
+}
+.hero__description {
+  background-image: url("../images/bg-pattern-intro-left-mobile.svg");
+  background-position: left top -1em;
+  background-repeat: no-repeat;
+  padding: 5em 0;
+  text-align: center;
+  position: relative;
+}
+.hero__bgLeft {
+  position: absolute;
+  display: none;
+  top: -4px;
+  left: -1.5em;
+}
+.hero__bgRight {
+  position: absolute;
+  bottom: -12em;
+  right: 0;
+}
+.hero .copy {
+  line-height: 1.9;
+}
+
+.different {
+  padding: 8.5em 0;
+  text-align: center;
+}
+.different hr {
+  width: 45%;
+  margin-bottom: 2.5em;
+  border-top: 1px solid var(--grayishBlue);
+}
+.different img {
+  margin: 2em 0;
+}
+.different .copy {
+  color: var(--darkGrayishViolet);
+  line-height: 1.9;
+}
+
+.find {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+}
+.find__content {
+  background: var(--darkViolet);
+  background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
+  background-position: right top;
+  background-repeat: no-repeat;
+  padding: 4em 0;
+  position: relative;
+}
+.find .title__h1 {
+  font-size: 2.5em;
+}
+.find__bgFind {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.footer {
+  background-color: var(--veryLightGray);
+  background-image: url("../images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 6em 0;
+  text-align: center;
+  font-size: 0.9em;
+}
+.footer__social {
+  display: grid;
+  grid-template-columns: repeat(4, 25px);
+  grid-column-gap: 1em;
+  justify-content: center;
+  padding: 2em 0;
+  margin: 0;
+}
+.footer hr {
+  border-top: 1px solid var(--grayishBlue);
+}
+.footer .title__h3 {
+  padding: 2em 0;
+}
+.footer__link {
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  color: var(--darkViolet);
+  font-weight: 700;
+  padding: 0.5em 0;
+}
+
+:root {
+  --darkViolet: hsl(256, 26%, 20%);
+  --grayishBlue: hsl(216, 30%, 68%);
+  --veryDarkViolet: hsl(270, 9%, 17%);
+  --darkGrayishViolet: hsl(273, 4%, 51%);
+  --veryLightGray: hsl(0, 0%, 98%);
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+.wrapper {
+  padding: 0 1.5em;
+  max-width: 100%;
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.button {
+  text-transform: uppercase;
+  padding: 0.9em 2.5em;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-weight: 700;
+}
+
+.title__h1 {
+  font-family: "DM Serif Display", serif;
+  line-height: 1.2;
+  margin-top: 0;
+  font-size: 2.9em;
+  font-weight: 400;
+}
+.title__h2 {
+  font-family: "DM Serif Display", serif;
+  line-height: 1.2;
+  margin-top: 0;
+  font-weight: 400;
+}
+.title__h3 {
+  font-family: "DM Serif Display", serif;
+  line-height: 1.2;
+  margin-top: 0;
+  font-family: "Karla", sans-serif;
+  color: var(--darkGrayishViolet);
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.icon__facebook {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  color: var(--darkGrayishViolet);
+  background-image: url("../images/icon-facebook.svg");
+}
+.icon__twitter {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  color: var(--darkGrayishViolet);
+  background-image: url("../images/icon-twitter.svg");
+}
+.icon__pinterest {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  color: var(--darkGrayishViolet);
+  background-image: url("../images/icon-pinterest.svg");
+}
+.icon__instagram {
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  background-repeat: no-repeat;
+  color: var(--darkGrayishViolet);
+  background-image: url("../images/icon-instagram.svg");
+}
+
+/*# sourceMappingURL=estilos.css.map */

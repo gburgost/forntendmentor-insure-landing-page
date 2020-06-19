@@ -1,0 +1,25 @@
+.find {
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5em;
+  &__content {
+    background: var(--darkViolet);
+    background-image: url("../images/bg-pattern-how-we-work-mobile.svg");
+    background-position: right top;
+    background-repeat: no-repeat;
+    padding: 4em 0;
+    position: relative;
+  }
+  .title__h1 {
+    font-size: 2.5em;
+  }
+  &__bgFind {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}

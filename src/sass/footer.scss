@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--veryLightGray);
+  background-image: url("../images/bg-pattern-footer-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding: 6em 0;
+  text-align: center;
+  font-size: 0.9em;
+  &__social {
+    display: grid;
+    grid-template-columns: repeat(4, 25px);
+    grid-column-gap: 1em;
+    justify-content: center;
+    padding: 2em 0;
+    margin: 0;
+  }
+  hr {
+    border-top: 1px solid var(--grayishBlue);
+  }
+  .title__h3 {
+    padding: 2em 0;
+  }
+  &__link {
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    color: var(--darkViolet);
+    font-weight: 700;
+    padding: 0.5em 0;
+  }
+}
