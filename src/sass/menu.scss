@@ -1,6 +1,37 @@
 .menu {
-  background: url("../images/icon-hamburger.svg") center no-repeat;
-  background-size: cover;
-  width: 30px;
-  height: 30px;
+  &__button {
+    background: url("../images/icon-hamburger.svg") center no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+  &__items {
+    display: none;
+  }
+  &__item {
+    display: flex;
+    justify-content: center;
+    padding-right: 2em;
+    a {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: var(--darkGrayishViolet);
+      font-weight: 700;
+      transition: 0.3s all ease-in-out;
+      &:hover {
+        color: var(--veryDarkViolet);
+      }
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    display: flex;
+    &__items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__button {
+      display: none;
+    }
+  }
 }

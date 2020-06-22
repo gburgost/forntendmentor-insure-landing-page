@@ -3,8 +3,20 @@
   &__content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
   &__logo {
     align-self: center;
+  }
+  .button {
+    color: var(--darkViolet);
+    border-color: var(--darkViolet);
+    // transition: 0.3s all ease-in-out;
+    &:hover {
+      background: var(--veryDarkViolet);
+      color: white;
+    }
+  }
+  @media screen and (min-width: 1024px) {
   }
 }

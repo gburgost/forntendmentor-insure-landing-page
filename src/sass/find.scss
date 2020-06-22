@@ -22,4 +22,18 @@
     top: 0;
     right: 0;
   }
+  @media screen and (min-width: 1024px) {
+    &__content {
+      display: flex;
+      padding: 4em 2em;
+      justify-content: space-between;
+      align-items: center;
+      background-image: url("../images/bg-pattern-how-we-work-desktop.svg");
+
+      .title__h1 {
+        text-align: left;
+        width: 350px;
+      }
+    }
+  }
 }

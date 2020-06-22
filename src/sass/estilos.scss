@@ -27,6 +27,9 @@ body {
   margin: auto;
   width: 100%;
   box-sizing: border-box;
+  @media screen and (min-width: 1024px) {
+    width: 80%;
+  }
 }
 
 .button {
@@ -36,12 +39,18 @@ body {
   background: none;
   color: white;
   font-weight: 700;
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
+  &:hover {
+    background: white;
+    color: var(--veryDarkViolet);
+  }
 }
 
 @mixin title {
   font-family: "DM Serif Display", serif;
   line-height: 1.2;
-  margin-top: 0;
+  margin: 0;
 }
 
 .title {
@@ -69,7 +78,7 @@ body {
   height: 25px;
   display: inline-flex;
   background-repeat: no-repeat;
-  color: var(--darkGrayishViolet);
+  // color: var(--darkGrayishViolet);
 }
 
 .icon {
