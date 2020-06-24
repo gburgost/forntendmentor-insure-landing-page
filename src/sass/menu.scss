@@ -8,6 +8,45 @@
   &__items {
     display: none;
   }
+  &__checkbox {
+    display: none;
+    &:checked {
+      & ~ .menu__button {
+        background: url("../images/icon-close.svg") no-repeat center;
+      }
+      & ~ .menu__items {
+        background-color: var(--veryDarkViolet);
+        background-image: url("../images/bg-pattern-mobile-nav.svg");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100%;
+        display: block;
+        position: absolute;
+        top: 62px;
+        padding: 0;
+        margin: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+        z-index: 100;
+        text-align: center;
+        .menu {
+          padding: 0;
+          &__item {
+            padding: 1.5em 0;
+            a {
+              color: white;
+            }
+          }
+        }
+        .button {
+          color: white;
+          border-color: white;
+          width: 89%;
+        }
+      }
+    }
+  }
   &__item {
     display: flex;
     justify-content: center;
